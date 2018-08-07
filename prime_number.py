@@ -10,7 +10,7 @@ def prime_or_not(number):
     if flag == 2:
         return number
 
-
+# listing all the prime number in the given range
 for item in range(2, n + 1):
     if prime_or_not(item) is not None:
         print(item, end=' ')
